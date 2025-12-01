@@ -12,52 +12,52 @@ interface HeroImage {
 const heroImages: HeroImage[] = [
   {
     id: 1,
-    url: '/lab.jpg',
+    url: '/lab.jg',
     alt: 'Youth leadership training'
   },
   {
     id: 2,
-    url: 'https://imgur.com/uOOuZ4n.jpg',
+    url: 'https://imgur.com/uOOuZ4n.',
     alt: 'Climate change initiatives'
   },
   {
     id: 3,
-    url: 'https://imgur.com/5ytiBT5.jpg',
+    url: 'https://imgur.com/5ytiBT',
     alt: 'Agri-business programs'
   },
   {
     id: 4,
-    url: 'https://imgur.com/pSpeXgf.jpg',
+    url: 'https://imgur.com/pSpeXgf.g',
     alt: 'Youth empowerment activities'
   },
   {
     id: 5,
-    url: 'https://imgur.com/PqY2TVm.jpg',
+    url: 'https://imgur.com/PqY2TVm.',
     alt: 'Civic education workshops'
   },
   {
     id: 6,
-    url: 'https://imgur.com/SS9NyXW.jpg',
+    url: 'https://imgur.com/SS9NyXW',
     alt: 'Gender equity programs'
   },
   {
     id: 7,
-    url: 'https://imgur.com/yxtuJWT.jpg',
+    url: 'https://imgur.com/yxtuJ',
     alt: 'Youth networking events'
   },
   {
     id: 8,
-    url: 'https://imgur.com/iq76XbS.jpg',
+    url: 'https://imgur.com/iq76g',
     alt: 'Sustainable change projects'
   },
   {
     id: 9,
-    url: 'https://imgur.com/ho5qaPr.jpg',
+    url: 'https://imgur.com/ho5qaPr',
     alt: 'Boychild empowerment'
   },
   {
     id: 10,
-    url: 'https://imgur.com/lPtfYfH.jpg',
+    url: 'https://imgur.com/lPtfYfpg',
     alt: 'Youth innovation programs'
   }
 ];

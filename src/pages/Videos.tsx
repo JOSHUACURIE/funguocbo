@@ -12,7 +12,7 @@ const videoCards =[
     duration: "8:30",
     views: "2.5K views",
     date: "2 weeks ago",
-    image: photos.find(p => p.id === 1)?.imageUrl || "https://imgur.com/VyD3mee.jpg" // Youth Leadership Training
+    image: photos.find(p => p.id === 1)?.imageUrl || "https://imgur.com/VyD3mee" // Youth Leadership Training
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const videoCards =[
     duration: "6:45",
     views: "1.8K views",
     date: "1 month ago",
-    image: photos.find(p => p.id === 7)?.imageUrl || "https://imgur.com/SS9NyXW.jpg" // Digital Skills Class
+    image: photos.find(p => p.id === 7)?.imageUrl || "https://imgur.com/SS9NyXW" // Digital Skills Class
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const videoCards =[
     duration: "10:20",
     views: "3.2K views",
     date: "2 months ago",
-    image: photos.find(p => p.id === 3)?.imageUrl || "https://imgur.com/ho5qaPr.jpg" // Tree Planting Initiative
+    image: photos.find(p => p.id === 3)?.imageUrl || "https://imgur.com/ho5qaPr" // Tree Planting Initiative
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const videoCards =[
     duration: "9:15",
     views: "2.1K views",
     date: "3 months ago",
-    image: photos.find(p => p.id === 5)?.imageUrl || "https://imgur.com/iq76XbS.jpg" // Modern Farming Training
+    image: photos.find(p => p.id === 5)?.imageUrl || "https://imgur.com/iq76XbS" // Modern Farming Training
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const videoCards =[
     duration: "7:50",
     views: "4.8K views",
     date: "4 months ago",
-    image: photos.find(p => p.id === 9)?.imageUrl || "https://imgur.com/PqY2TVm.jpg" // Boychild Mentorship
+    image: photos.find(p => p.id === 9)?.imageUrl || "https://imgur.com/PqY2TVm" // Boychild Mentorship
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const videoCards =[
     duration: "11:30",
     views: "3.5K views",
     date: "5 months ago",
-    image: photos.find(p => p.id === 11)?.imageUrl || "https://imgur.com/uqSP2xp.jpg" // Community Dialogue
+    image: photos.find(p => p.id === 11)?.imageUrl || "https://imgur.com/uqSP2xp" // Community Dialogue
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const videoCards =[
     duration: "5:40",
     views: "1.9K views",
     date: "6 months ago",
-    image: photos.find(p => p.id === 13)?.imageUrl || "https://imgur.com/GdyAgXz.jpg" // Networking Event
+    image: photos.find(p => p.id === 13)?.imageUrl || "https://imgur.com/GdyAgXz" // Networking Event
   },
   {
     id: 8,
@@ -75,7 +75,7 @@ const videoCards =[
     duration: "12:10",
     views: "2.7K views",
     date: "7 months ago",
-    image: photos.find(p => p.id === 5)?.imageUrl || "https://imgur.com/uOOuZ4n.jpg" // Agri Training
+    image: photos.find(p => p.id === 5)?.imageUrl || "https://imgur.com/uOOuZ4" // Agri Training
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ const videoCards =[
     duration: "14:25",
     views: "3.9K views",
     date: "8 months ago",
-    image: photos.find(p => p.id === 1)?.imageUrl || "https://imgur.com/VyD3mee.jpg" // Leadership Development
+    image: photos.find(p => p.id === 1)?.imageUrl || "https://imgur.com/VyD3me" // Leadership Development
   }
 ];
 // Map categories to video categories
@@ -94,42 +94,42 @@ const videoCategoryCards= [
     title: "Youth Leadership",
     description: "Leadership training, innovation showcases, and young change-makers in action",
     count: "15 videos",
-    image: photoCategories.find(c => c.id === 1)?.coverImage || "https://imgur.com/VyD3mee.jpg"
+    image: photoCategories.find(c => c.id === 1)?.coverImage || "https://imgur.com/VyD3meg"
   },
   {
     icon: "💻",
     title: "Digital Skills",
     description: "Technology training, coding workshops, and digital innovation programs",
     count: "12 videos",
-    image: photoCategories.find(c => c.id === 4)?.coverImage || "https://imgur.com/SS9NyXW.jpg"
+    image: photoCategories.find(c => c.id === 4)?.coverImage || "https://imgur.com/SS9Nypg"
   },
   {
     icon: "🌍",
     title: "Climate Action",
     description: "Youth-led environmental conservation and sustainability initiatives",
     count: "8 videos",
-    image: photoCategories.find(c => c.id === 2)?.coverImage || "https://imgur.com/pSpeXgf.jpg"
+    image: photoCategories.find(c => c.id === 2)?.coverImage || "https://imgur.com/pSpeXgg"
   },
   {
     icon: "🚜",
     title: "Agri-business",
     description: "Youth innovation in agriculture and sustainable farming practices",
     count: "6 videos",
-    image: photoCategories.find(c => c.id === 3)?.coverImage || "https://imgur.com/iq76XbS.jpg"
+    image: photoCategories.find(c => c.id === 3)?.coverImage || "https://imgur.com/iq76XbSg"
   },
   {
     icon: "👦",
     title: "Boychild Empowerment",
     description: "Mentorship, academic support, and leadership development for boys",
     count: "7 videos",
-    image: photoCategories.find(c => c.id === 5)?.coverImage || "https://imgur.com/PqY2TVm.jpg"
+    image: photoCategories.find(c => c.id === 5)?.coverImage || "https://imgur.com/PqY2TVm"
   },
   {
     icon: "🏛️",
     title: "Governance & Civic Education",
     description: "Youth participation in governance and community decision-making",
     count: "5 videos",
-    image: photoCategories.find(c => c.id === 6)?.coverImage || "https://imgur.com/uqSP2xp.jpg"
+    image: photoCategories.find(c => c.id === 6)?.coverImage || "https://imgur.com/uqSP2xp.j"
   }
 ];
 
